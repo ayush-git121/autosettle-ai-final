@@ -10,13 +10,7 @@ A web app that settles minor motor-insurance claims (dents, scratches, broken mi
 
 ## 🌐 How to open the website
 
-### Option A: Open the hosted site (quickest)
-
-1. Open the published URL: **`https://<your-published-url>`** *(replace with your published link; it is not stored in this repo)*.
-2. Don't have it? Open the project in the [Lovable editor](https://lovable.dev/projects/e5d5281b-af78-4f4d-a841-f42075a4441c), click **Publish**, and copy the URL shown.
-3. Check it is live by opening `/health`. You should see `{"status":"ok"}`.
-
-### Option B: Run it on your own computer
+### Run it on your own computer
 
 You need **Node.js 20+**, **npm**, a free **[Supabase](https://supabase.com)** project, and one AI key (Gemini or Anthropic).
 
@@ -188,15 +182,6 @@ npm run lint      # lint
 
 ---
 
-<!-- LOVABLE:BEGIN -->
-> [!IMPORTANT]
-> This project is connected to [Lovable](https://lovable.dev). Avoid rewriting
-> published git history — force pushing, or rebasing/amending/squashing commits
-> that are already pushed — as it rewrites history on Lovable's side and the
-> user will likely lose their project history.
->
-> Commits you push to the connected branch sync back to Lovable and show up in
-> the editor, so keep the branch in a working state.
-<!-- LOVABLE:END -->
+
 
 *Every decision is logged and explainable.*
